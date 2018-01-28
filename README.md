@@ -41,6 +41,7 @@ The program will validate input message based on message types,any invalidate me
 
   - java -jar <path_to_jar_file> <path_to_input_file>
 
+  - Please provide the absolute path to the input file
 
 Thank your for reading and reviewing code!
 
