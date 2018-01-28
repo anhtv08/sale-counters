@@ -1,8 +1,8 @@
 This is a small application to stimulate the sale notification system.
-the program is writen in Java 8 and using maven to buidl and package application.
+The program is written in Java 8 and using maven to build and package application.
 
-the input message taken from input file:
-the format of message as below:
+The input message taken from input file:
+The assumption format of message as below:
 
 MESSAGE_TYPE|PRODUCT_TYPE|PRICE|AMOUNT|ADJUSTMENT_TYPE|ADJUSTMENT_AMOUNT
 where
@@ -10,7 +10,7 @@ where
     0: for sale , AMOUNT ,ADJUSTMENT_TYPE, ADJUSTMENT_AMOUNT field will be empty
     1: sale detail message : ADJUSTMENT_TYPE, ADJUSTMENT_AMOUNT field will be empty
     2: sale adjustment message : AMOUNT field will be empty
- -product type: any word such as : apple, babana
+ -product type: any word such as : apple, banana
  - price is double value : 10
  - amount: the number of occurrence
  - adjustment_type: could be any of
@@ -19,21 +19,28 @@ where
     MUL : multiple
  - ADJUSTMENT_AMOUNT : adjustment amount
 
-the program will validate input message based on message types,any invalidate message will be logged and skip for processing
+ Prerequisites:
+  - Java 8
+  - Maven
+
+Project structure:
+ - src folder : source code and unit test code and data
+ - data folder: sample input data folder
+The program will validate input message based on message types,any invalidate message will be logged and skip for processing
 
 
-How to build and run the test for application:
+1. How to build and run the test for application:
 
 execute following command to build and run unit test
 
 mvn clean install
 
-package applicatio:
+2. package application:
 
 mvn jar:jar
-using following command to run application:
+3. using following command to run application:
 
-jav -jar <path_to_jar_file> <path_to_input_file>
+java -jar <path_to_jar_file> <path_to_input_file>
 
 
 Thank your for reading and reviewing code!
