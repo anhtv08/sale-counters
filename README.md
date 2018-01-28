@@ -31,16 +31,15 @@ The program will validate input message based on message types,any invalidate me
 
 1. How to build and run the test for application:
 
-execute following command to build and run unit test
-
-mvn clean install
+ - mvn clean install
 
 2. package application:
 
-mvn jar:jar
+  - mvn jar:jar
+
 3. using following command to run application:
 
-java -jar <path_to_jar_file> <path_to_input_file>
+  - java -jar <path_to_jar_file> <path_to_input_file>
 
 
 Thank your for reading and reviewing code!
