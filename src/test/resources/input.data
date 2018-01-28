@@ -1,0 +1,85 @@
+// assuming that messeage passed as input string and has following format
+// MESSAGE_TYPE|PRODUCT_TYPE|PRICE|AMOUNT|ADJUSTMENT_TYPE|ADJUSTMENT_AMOUNT
+// WHERE MESSAGE TYPE:
+// 0: SALE MESSAGE ( MESSAGE TYPE 1)
+// 1: DETAIL OF SALE ( MESSAGE TYPE 2)
+// 2:  ADJUSTMENT MESSAGE FOR SALE
+// IN CASE OF MESSAGE TYPE 1: AMOUTN, ADJUSTMENT WILL BE EMPTY
+// MESSAGE TYPE 2: ADJUSTMENT TYPE WILL BE EMPTY
+// MESSAGE TYPE 3: ALL FIELD WILL BE REQUIRED
+// WE NEED TO VALIDATE ANY MESSAGE INPUT BEFORE PROCESSING.
+// MESSAGE ONLY PROCESSED IF IT IS VALUE, OTHERWISE IF WILL BE IGNORED AND LOGGED IN CONSOLE LOG
+
+
+0|apple|10.0||||
+0|apple|10.0||||
+1|apple|10.0|5||
+1|apple|10.0|6||
+2|apple|10.0||ADD|15
+2|apple|10.0||SUB|5
+2|apple|10.0||MUL|1.5
+0|apple|10.0||||
+0|apple|10.0||||
+1|apple|10.0|5||
+1|apple|10.0|6||
+2|apple|10.0||ADD|15
+2|apple|10.0||SUB|5
+2|apple|10.0||MUL|1.5
+0|apple|10.0||||
+0|apple|10.0||||
+1|apple|10.0|5||
+1|apple|10.0|6||
+2|apple|10.0||ADD|15
+2|apple|10.0||SUB|5
+2|apple|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
+2|banana|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
+2|banana|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
+2|banana|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
+2|banana|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
+2|banana|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
+2|banana|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
+2|banana|10.0||MUL|1.5
+
+

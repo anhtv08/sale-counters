@@ -1,0 +1,13 @@
+0|apple|10.0||||
+0|apple|10.0||||
+1|apple|10.0|5||
+1|apple|10.0|6||
+2|apple|10.0||ADD|15
+2|apple|10.0||SUB|5
+2|apple|10.0||MUL|1.5
+0|banana|10.0||||
+0|banana|10.0||||
+1|banana|10.0|5||
+1|banana|10.0|6||
+2|banana|10.0||ADD|15
+2|banana|10.0||SUB|5
